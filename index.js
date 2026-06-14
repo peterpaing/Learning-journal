@@ -1,1 +1,1 @@
-import {mainPost , recentPosts} from './data.js'
+import {mainPost , recentPosts , aboutMe} from './data.js'
