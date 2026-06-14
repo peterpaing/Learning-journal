@@ -1,0 +1,1 @@
+import {mainPost , recentPosts} from './data.js'
