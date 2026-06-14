@@ -1,12 +1,10 @@
 
-const mainPost=[
-
-    {image:"main-photo.png" ,
+const mainPost= {image:"main-photo.png" ,
     date:"JULY 23, 2022",
     title:"My new journey as a bootcamp student.",
     text:"After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers."
 }
-]
+
 
 const recentPosts =[
 
@@ -29,12 +27,10 @@ const recentPosts =[
     }
 ]
 
-const aboutMe =[
-
-    { image: "",
+const aboutMe ={ image: "/images/profile-image.png",
       title:"Hi there! My name is Roku and welcome to my learning journal.",
       text:"After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers."
 }
-]
+
 
 export {mainPost , recentPosts , aboutMe}
