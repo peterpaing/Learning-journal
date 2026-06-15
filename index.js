@@ -1,10 +1,12 @@
 import {mainPost , recentPosts , aboutMe} from './data.js'
 
 function renderMainPost() {
-    return `<span>${mainPost.date}</span>
+    return `<div class="main-post">
+    <span>${mainPost.date}</span>
             <h2>${mainPost.title}</h2>
             <p>${mainPost.text}</p>
-            <p></p>`;
+            <p></p>
+            </div>`
 }
 
 document.querySelector('.main-post').innerHTML = renderMainPost()
