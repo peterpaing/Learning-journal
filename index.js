@@ -12,10 +12,12 @@ function renderMainPost() {
 document.querySelector('.main-post').innerHTML = renderMainPost()
 
 function renderRecentPosts(){
-    return recentPosts.map(post=>`<img src="${post.image}">
+    return recentPosts.map(post=>`  <div class="recent-post">
+                                    <img src="${post.image}">
                                      <span>${post.date}</span>
                                      <h3>${post.title}</h3>
-                                     <p>${post.text}</p>`).join('')
+                                     <p>${post.text}</p>
+                                     </div>`).join('')
 }
 
 document.querySelector('.recent-post').innerHTML = renderRecentPosts()
