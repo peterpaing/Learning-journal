@@ -178,7 +178,7 @@ footer p {
     color: #D7D7D7;
 }
 
-.view-post{
+.view-post,.about-me{
    margin: 32px 10px 0 10px;
 
 }
@@ -188,7 +188,7 @@ footer p {
     margin-bottom: 16px;
 }
 
-.view-post h2{
+.view-post h2,.about-me h2{
 font-weight: 700;
 font-size: 32px;
 line-height: 108%;
@@ -196,7 +196,7 @@ letter-spacing: -3%;
 margin-bottom: 15px;
 }
 
-.view-post p{
+.view-post p,.about-me p{
 font-size: 16px;
 margin-bottom: 35px;
 }
@@ -223,6 +223,13 @@ margin-bottom: 35px;
     font-weight: 700;
     font-size: 16px;
     margin-top: 51px;
+}
+
+.about-me img{
+    width: 128px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 27px;
 }
 
 
