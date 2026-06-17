@@ -242,6 +242,7 @@ footer p {
 }
 
 @media (min-width: 1024px) {
+    
     h1 {
         font-size: 1.25rem; /* 20px */
     }
@@ -257,6 +258,7 @@ footer p {
         font-size: 1rem; /* 16px */
     }
 
+    
     .main-post span {
         padding-top: 287px;
     }
