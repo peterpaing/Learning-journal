@@ -3,41 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learning Journal">
+    <meta name="description" content="Learning Journal - A personal blog tracking my web development journey.">
     <meta name="author" content="Peter Paing">
     <title>Learning Journal</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smythe&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smythe&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo-container">
-        <img src="/images/logo.png" class="logo">
-        <h1>My learning journal</h1>
+            <img src="/images/logo.png" class="logo" alt="Learning Journal Logo">
+            <h1>My learning journal</h1>
         </div>
-        <nav>
+        <nav aria-label="Main Navigation">
             <ul>
-             <li><a href="#home">home</a></li>
-                <li data-about="aboutMe"><a href="#">about me</a></li>
+                <li><a href="#home" id="home-link">home</a></li>
+                <li><button class="nav-btn" data-about="aboutMe">about me</button></li>
             </ul>
         </nav>
     </header>
-    <main id="home">
-    <div class="view-post"></div>
-    <div class="about-me"></div>
-    <div class="main-post" data-post="main"></div>
-    <div class="recent-post"></div>
-    <a href="#" class="view-more">view more</a>
+
+    <main id="home" aria-live="polite">
+        <section class="view-post" id="view-post" retina-target tabindex="-1"></section>
+        <section class="about-me" id="about-me" tabindex="-1"></section>
+        
+        <section class="main-post-container">
+            <div class="main-post" data-post="main"></div>
+        </section>
+        
+        <section class="recent-posts-container">
+            <div class="recent-post"></div>
+        </section>
+        
+        <button class="view-more">view more posts</button>
     </main>
+
     <footer>
         <h4>My Learning Journal</h4>
         <p>Copyright ©2026</p>
     </footer>
     <script src="index.js" type="module"></script>
 </body>
-</html>   
+</html>
