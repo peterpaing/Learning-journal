@@ -262,7 +262,56 @@ li{
     padding-right: 417px;
 }
 
+.recent-post{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 53px 0 53px;
+    gap: 26px;
+}
 
+.recent {
+    display: flex;
+    flex-direction: column;
+}  
+    
+
+.recent-post img {
+    width: 100%;
+    height: 232px;
+}
+
+.recent span,
+.recent h3,
+.recent p {
+    margin-top: 0.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+}
+
+.view-post span{
+    font-size: 16px;
+    padding-top: 71px;
+}
+
+.view-post h2{
+    font-size: 36px;
+}
+
+.view-post span,
+.view-post h2,
+.view-post p{
+    padding-left: 121px;
+    padding-right: 156px;
+}
+
+.view-post img{
+    width: 919px;
+}
+
+.title{
+    font-size: 24px;
+}
 }
 
 
