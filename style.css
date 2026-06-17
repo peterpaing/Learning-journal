@@ -294,7 +294,7 @@ li{
     padding-top: 71px;
 }
 
-.view-post h2{
+.view-post h2,.about-me h2{
     font-size: 36px;
 }
 
@@ -312,6 +312,31 @@ li{
 .title{
     font-size: 24px;
 }
+
+.view-post h3{
+    font-size: 24px;
+}
+.about-me{
+    margin:91px 53px 0 53px;
+}
+.about-container{
+    display: flex;
+    gap: 33px;
+}
+
+.about-main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about-me img{
+ width: 182px;
+}
+.about-me h2{
+    padding-right: 100px;
+}
+
 }
 
 

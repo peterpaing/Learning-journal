@@ -57,9 +57,13 @@ function viewMainPost() {
 function renderAbout(){
     document.querySelector('.about-me').innerHTML=`
         <div class="about-me">
+        <div class="about-container">
         <img src="${aboutMe.image}">
+        <div class="about-main">
         <h2>${aboutMe.title}</h2>
         <p>${aboutMe.text}</p>
+        </div>
+        </div>
         <div class="text-more">
         <p class="title">How I stay committed to learning</p>
         <p>I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p>
