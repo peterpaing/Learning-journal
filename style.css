@@ -104,12 +104,12 @@ a {
     font-size: 16px;
 }
 
-.recent-post {
+.recent {
     margin-top: 41px;
     padding: 0 10px 0 10px;
 }
 
-.recent-post img {
+.recent img {
     display: block;
     width: 100%;
     height: auto;
@@ -117,27 +117,27 @@ a {
     border-radius: 3px;
 }
 
-.recent-post span,
-.recent-post h3,
-.recent-post p {
+.recent span,
+.recent h3,
+.recent p {
     max-width: 374px; 
     margin-left: auto;
     margin-right: auto;
 }
 
-.recent-post span {
+.recent span {
     display: block;
     margin-top: 14px;
     font-size: 14px;
 }
 
-.recent-post h3 {
+.recent h3 {
     margin-top: 9px;
     font-size: 24px;
     font-weight: 700;
 }
 
-.recent-post p {
+.recent p {
     margin-top: 9px;
     font-size: 16px;
     line-height: 1.25;
@@ -230,6 +230,39 @@ margin-bottom: 35px;
     border-radius: 50%;
     display: block;
     margin-bottom: 27px;
+}
+
+@media (min-width: 1024px){
+    h1{
+        font-size: 20px;
+    }
+
+    .logo {
+    width: 34px;
+    height: 34px;
+    margin-top: 15px;
+}
+
+li{
+    font-size:16px;
+}
+
+.main-post span{
+    padding-top: 287px;
+    
+}
+
+.main-post span ,
+.main-post h2,
+.main-post p{
+    padding-left: 53px
+} 
+
+.main-post p{
+    padding-right: 417px;
+}
+
+
 }
 
 
